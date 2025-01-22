@@ -5,14 +5,14 @@ import java.util.Objects;
 public class Employee {
 
     private int id;
-    private  String firstName;
-    private  String lastName;
+    private  String firstname;
+    private  String lastname;
 
 
-    public Employee(int id, String firstName, String lastName) {
+    public Employee(int id, String firstname, String lastname) {
         this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.firstname = firstname;
+        this.lastname = lastname;
     }
 
     public int getId() {
@@ -20,11 +20,11 @@ public class Employee {
     }
 
     public String getFirstname() {
-        return firstName;
+        return firstname;
     }
 
     public String getLastName() {
-        return lastName;
+        return lastname;
     }
 
     // uniqueness with id
@@ -43,7 +43,7 @@ public class Employee {
     public String toString() {
         return "\n" + "Employee's" + "\n" +
         "ID: " + id + "\n" +
-        "First Name: " + firstName + "\n" +
-        "Last Name: " + lastName + "\n";
+        "First Name: " + firstname + "\n" +
+        "Last Name: " + lastname + "\n";
     }
 }
